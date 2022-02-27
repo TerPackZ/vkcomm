@@ -34,8 +34,8 @@ else:
     user_id = input("Введите айди страницы: ")
     posts_id = input("Введите айди поста: ")
     msgs = input("Введите сообщение: ")
+    vk_session = vk_api.VkApi(token=token)
     vk = vk_session.get_api()
-    session = vk.Session(access_token=token)
     apivk = vk.API(session, v=5.95)
 while True:
     try:
