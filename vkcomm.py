@@ -2,7 +2,6 @@ import vk_api
 import pyfiglet
 from colorama import init, Fore, Back, Style
 import random
-import vk
 import time
 import os
 import sys
