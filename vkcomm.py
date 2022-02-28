@@ -1,4 +1,3 @@
-import vk
 import vk_api
 import pyfiglet
 from colorama import init, Fore, Back, Style
