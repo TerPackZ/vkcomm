@@ -36,7 +36,7 @@ else:
     msgs = input("Введите сообщение: ")
     vk_session = vk_api.VkApi(token=token)
     vk = vk_session.get_api()
-    apivk = vk.API(session, v=5.95)
+    apivk = vk.API(vk_session, v=5.95)
 while True:
     try:
         print(apivk.wall.createComment(owner_id=user_id, post_id=posts_id, message=msgs,
